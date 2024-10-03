@@ -1,0 +1,24 @@
+
+Final Model: Gradient Boosting (Bayesian Optimization)
+
+Features:
+- Isoelectric_Point
+- Aliphatic_Index
+- Hydrophobicity
+- Molecular_Weight
+- Protein_Length
+- Hamming_Distance
+
+Hyperparameters:
+- n_estimators=500
+- learning_rate=0.075
+- max_depth=10
+- min_samples_leaf=4
+- min_samples_split=6
+- subsample=0.64
+
+Performance Metrics:
+- Train MSE: 0.0001
+- Test MSE: 0.0002
+- Train R^2: 0.99
+- Test R^2: 0.98
